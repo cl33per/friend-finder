@@ -1,0 +1,23 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "![GitHub followers](https://img.shields.io/github/followers/cl33per?style=social) [![GitHub issues](https://img.shields.io/github/issues/cl33per/friend-finder)](https://github.com/cl33per/friend-finder/issues) [![GitHub](https://img.shields.io/github/license/cl33per/friend-finder)](https://img.shields.io/github/license/cl33per/friend-finder) ![GitHub top language](https://img.shields.io/github/languages/top/cl33per/friend-finder) ![GitHub last commit](https://img.shields.io/github/last-commit/cl33per/friend-finder)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cl33per/friend-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cl33per/friend-finder/issues"
+  },
+  "homepage": "https://github.com/cl33per/friend-finder#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
