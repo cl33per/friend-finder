@@ -1,16 +1,18 @@
-// ===============================================================================
-// DATA
-// Below data will hold all of the reserved tables.
-// Initially we just set it equal to a "dummy" customer.
-// But you could have it be an empty array as well.
-// ===============================================================================
+var friends = [{
+        "name": "David",
+    "photo": "https://www.visittuscany.com/shared/visittuscany/immagini/blogs/idea/david-michelangelo-accademia.jpg?__scale=h:1488,w:1998,cx:4,cy:12,ch:1488,cw:1998",
+        "scores": [3, 1, 2, 4, 2, 1, 2, 2, 1, 1]
+    },
+    {
+        "name": "Donald Duck",
+        "photo": "https://img.etimg.com/thumb/msid-58980445,width-643,imgsize-182458,resizemode-4/some-fun-facts-about-disneys-most-popular-character-donald-duck.jpg",
+        "scores": [1, 1, 1, 4, 2, 1, 2, 1, 2, 1]
+    },
+    {
+        "name": "Luis Rossman",
+        "photo": "http://www.mackungfu.org/dump/louislouis.jpg",
+        "scores": [5, 5, 4, 5, 5, 1, 3, 5, 4, 5]
+    }
+]
 
-var tableArray = {
-    "name": "Ahmed",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
-};
-
-
-// Note how we export the array. This makes it accessible to other files using require.
-module.exports = tableArray;
+module.exports = friends;
